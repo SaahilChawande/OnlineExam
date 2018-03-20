@@ -1,0 +1,160 @@
+Sizes ,void, Enumerations, Declaration
+...............
+1.The size of an object or a type can be determined using which operator?
+a) malloc
+b) sizeof
+c) malloc
+d) calloc
+$
+2. It is guaranteed that a ____ has atleast 8bits and a ____ has atleast 16 bits.
+a) int, float
+b) char, int
+c) bool, char
+d) char, short
+$
+3.Implementation dependent aspects about an implementation can be found in ____
+a) <implementation>
+b) <limits>
+c) <limit>
+d) <numeric>
+$
+4.Size of C++ objects are expressed in terms of multiples of the size of a ____ and the size of a char is ____.
+a) char, 1
+b) int, 1
+c) float, 8
+d) char, 4
+$
+5.What is the output of the following program?
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int num = 0x20 + 020 + 20;
+        cout << sizeof(num)<<'\n';
+        return 0;
+    }
+a) 2
+b) 4
+c) Depends on compiler.
+d) garbage
+$
+6.What is the output of the following program?
+    #include <iostream>
+    using namespace std;
+    int main ( )
+    {
+        static double i;
+        i = 20;
+        cout << sizeof(i);
+        return 0;
+    }
+a) 4
+b) 2
+c) 8
+d) garbage
+$
+7.Which of the following will not return a value?
+a) null
+b) void
+c) empty
+d) free
+$
+8.____ have the return type void?
+a) all functions
+b) constructors
+c) destructors
+d) none of the mentioned
+$
+9.What does the following statement mean?
+    void a;
+a) variable a is of type void
+b) a is an object of type void
+c) declares a variable with value a
+d) flags an error
+$
+10.Choose the incorrect option
+a) void is used when the function does not return a value.
+b) void is also used when the value of a pointer is null.
+c) void is used as the base type for pointers to objects of unknown type.
+d) void is a special fundamental type.
+$
+11.What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        void a = 10, b = 10;
+        int c;
+        c = a + b;
+        cout << c;
+        return 0;
+    }
+a) 20
+b) compile time error
+c) runtime error
+d) none of the mentioned
+$
+12.Identify the incorrect option.
+a) enumerators are constants
+b) enumerators are user defined types
+c) enumerators are same as macros
+d) enumerator values start from 0 by default
+$
+13.In which type does the enumerators are stored by the compiler?
+a) string
+b) integer
+c) float
+d) none of the mentioned
+$
+14.To which of these enumerators can be assigned?
+a) integer
+b) negative
+c) enumerator
+d) all of the mentioned
+$
+15.What will happen when defining the enumerated type?
+a) it will not allocate memory
+b) it will allocate memory
+c) it will not allocate memory to its variables
+d) none of the mentioned
+$
+16.Which variable does equals in size with enum variable?
+a) int variable
+b) float variable
+c) string variable
+d) none of the mentioned
+$
+17.Choose the correct option.
+    extern int i;
+    int i;
+a) both 1 and 2 declare i
+b) 1 declares the variable i and 2 defines i
+c) 1 declares and defines i, 2 declares i
+d) 1 declares i,2 declares and defines i
+$
+18.Which of the given statements are false.
+1. extern int func;
+2. extern int func2(int,int);
+3. int func2(int,int);
+4. extern class foo;
+a) 3 and 4 only
+b) 2 and 3 only
+c) only 4
+d) 2, 3 and 4
+$
+19.Pick the right option
+    Statement 1:A definition is also a declaration.
+    Statement 2:An identifier can be declared just once.
+a) Statement 1 is true, Statement 2 is false.
+b) Statement 2 is true, Statement 1 is false.
+c) Both are false.
+d) Both are true.
+$
+20.Pick the right option
+    Statement 1:Global values are not initialized by the stream.
+    Statement 2:Local values are implicitly initialised to 0.
+a) Statement 1 is true, Statement 2 is false.
+b) Statement 2 is true, Statement 1 is false.
+c) Both are false.
+d) Both are true.
+$

@@ -1,0 +1,166 @@
+Inheritance, Type Conversions, Promotions and Castings, Relational Operators and Boolean Logic Operators, Assignment Operators and Operator Precedence
+...................
+1.Which of these keyword must be used to inherit a class?
+a) super
+b) this
+c) extent
+d) extends
+$
+2.Which of these keywords is used to refer to member of base class from a sub class?
+a) upper
+b) super
+c) this
+d) None of the mentioned
+$
+3.A class member declared protected becomes member of subclass of which type?
+a) public member
+b) private member
+c) protected member
+d) static member
+$
+4.Which of these is correct way of inheriting class A by class B?
+a) class B + class A {}
+b) class B inherits class A {}
+c) class B extends A {}
+d) class B extends class A {}
+$
+5.Which of the following statements are incorrect?
+a) public members of class can be accessed by any code in the program.
+b) private members of class can only be accessed by other members of the class.
+c) private members of class can be inherited by a sub class, and become protected members in sub class.
+d) protected members of a class can be inherited by a sub class, and become private members of the sub class.
+$
+6.Which of these is necessary condition for automatic type conversion in Java?
+a) The destination type is smaller than source type.
+b) The destination type is larger than source type.
+c) The destination type can be larger or smaller than source type.
+d) None of the mentioned
+$
+7.What is the prototype of the default constructor of this class?
+public class prototype { }
+a) prototype( )
+b) prototype(void)
+c) public prototype(void)
+d) public prototype( )
+$
+8.What is the error in this code?
+byte b = 50;
+b = b * 50;
+a) b can not contain value 100, limited by its range.
+b) * operator has converted b * 50 into int, which can not be converted to byte without casting.
+c) b can not contain value 50.
+d) No error in this code
+$
+9.If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?
+a) long
+b) int
+c) double
+d) float
+$
+10. What is Truncation is Java?
+a) Floating-point value assigned to an integer type.
+b) Integer value assigned to floating type.
+c) Floating-point value assigned to an Floating type.
+d) Integer value assigned to floating type.
+$
+11.What is the output of this program?
+    class conversion {
+        public static void main(String args[]) 
+        {
+            double a = 295.04;
+            int  b = 300;
+            byte c = (byte) a;
+            byte d = (byte) b;
+            System.out.println(c + " "  + d);
+        } 
+    }
+a) 38 43
+b) 39 44
+c) 295 300
+d) 295.04 300
+$
+12.Which of these have highest precedence?
+a) ()
+b) ++
+c) *
+d) >>
+$
+13.What should be expression1 evaluate to in using ternary operator as in this line?
+expression1 ? expression2 : expression3
+a) Integer
+b) Floating – point numbers
+c) Boolean
+d) None of the mentioned
+$
+14.What is the value stored in x in following lines of code?
+int x, y, z;
+x = 0;
+y = 1;
+x = y = z = 8;
+a) 0
+b) 1
+c) 9
+d) 8
+$
+15.What is the order of precedence (highest to lowest) of following operators?
+1. &
+2. ^
+3. ?:
+a) 1 -> 2 -> 3
+b) 2 -> 1 -> 3
+c) 3 -> 2 -> 1
+d) 2 -> 3 -> 1
+$
+16.Which of these statements are incorrect?
+a) Equal to operator has least precedence.
+b) Brackets () have highest precedence.
+c) Division operator, /, has higher precedence than multiplication operator.
+d) Addition operator, +, and subtraction operator have equal precedence.
+$
+17.What is the output of this program?
+    class ternary_operator {
+        public static void main(String args[]) 
+        {        
+             int x = 3;
+             int y = ~ x;
+             int z;
+             z = x > y ? x : y;
+             System.out.print(z);
+        } 
+    }
+a) 0
+b) 1
+c) 3
+d) -4
+$
+18.Which of these lines of code will give better performance?
+1. a | 4 + c >> b & 7;
+2. (a | ((( 4 * c ) >> b ) & 7 ))
+a) 1 will give better performance as it has no parentheses.
+b) 2 will give better performance as it has parentheses.
+c) Both 1 & 2 will give equal performance.
+d) Dependent on the computer system.
+$
+19.What is the output of relational operators?
+a) Integer
+b) Boolean
+c) Characters
+d) Double
+$
+20.What is the output of this program?
+    class bool_operator {
+        public static void main(String args[]) 
+        {    
+             boolean a = true;
+             boolean b = !true;
+             boolean c = a | b;
+ 	     boolean d = a & b;
+             boolean e = d ? b : c;
+             System.out.println(d + " " + e);
+        } 
+    }
+a) false false
+b) true ture
+c) true false
+d) false true
+$

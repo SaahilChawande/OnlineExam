@@ -1,0 +1,170 @@
+1.Which is the correct operator for power(x^y)?
+a) X^y
+b) X**y
+c) X^^y
+d) None of the mentioned
+$
+2.Which one of these is floor division?
+a) /
+b) //
+c) %
+d) None of the mentioned
+$
+3.What is the order of precedence in python?
+i) Parentheses
+ii) Exponential
+iii) Division
+iv) Multiplication
+v) Addition
+vi) Subtraction
+...
+a) i,ii,iii,iv,v,vi
+b) ii,i,iii,iv,v,vi
+c) ii,i,iv,iii,v,vi
+d) i,ii,iii,iv,vi,v
+$
+4.What is the maximum possible length of an identifier?
+a) 31 characters
+b) 63 characters
+c) 79 characters
+d) none of the mentioned
+$
+5.What is the output of the following?
+i = 1
+while True:
+    if i%0O7 == 0:
+        break
+    print(i)
+    i += 1
+.....
+a) 1 2 3 4 5 6
+b) 1 2 3 4 5 6 7
+c) error
+d) none of the mentioned
+$
+6.What is the output of the following?
+x = 'abcd'
+for i in x:
+    print(i.upper())
+a) a b c d
+b) A B C D
+c) a B C D
+d) error
+$
+7.What is the output when following statement is executed ?
+.....
+>>>"a"+"bc"
+a) a
+b) bc
+c) bca
+d) abc
+$
+8.What is the output when following code is executed ?
+.....
+>>> str1 = 'hello'
+>>> str2 = ','
+>>> str3 = 'world'
+>>> str1[-1:]
+a) olleh
+b) hello
+c) h
+d) o
+$
+9.What is the output of the following?
+.....
+print("abc DEF".capitalize())
+a) abc def
+b) ABC DEF
+c) Abc def
+d) Abc Def
+$
+10.What is the output of the following?
+print("abcdef".find("cd"))
+a) True
+b) 2
+c) 3
+d) none of the mentioned
+$
+11.What is the output of the following?
+......
+print("Hello {name1} and {name2}".format('foo', 'bin'))
+a) Hello foo and bin
+b) Hello {name1} and {name2}
+c) error
+d) Hello and
+$
+12.What is the output of the following?
+......
+print("Hello {name1} and {name2}".format(name1='foo', name2='bin'))
+a) Hello foo and bin
+b) Hello {name1} and {name2}
+c) error
+d) Hello and
+$
+13.Which of the following commands will create a list(multiple answers allowed) ?
+a) list1 = list()
+b) list1 = [] 
+c) list1 = list([1, 2, 3])
+d) list1 = [1, 2, 3] 
+$
+14.Suppose list1 is [2445,133,12454,123], what is max(list1) ?
+a) 2445
+b) 133
+c) 12454
+d) 123
+$
+15.Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
+a) Error
+b) None
+c) 25
+d) 2
+$
+16.What will be the output?
+def f(i, values = []):
+    values.append(i)
+    return values
+f(1)
+f(2)
+v = f(3)
+print(v)
+......
+a) [1] [2] [3] 
+b) [1] [1, 2] [1, 2, 3]
+c) [1, 2, 3] 
+d) 1 2 3
+$
+17.What will be the output?
+names1 = ['Amir', 'Bala', 'Chales']
+if 'amir' in names1:
+    print 1
+else:
+    print 2
+.......
+a) None
+b) 1
+c) 2
+d) Error
+$
+18.Which keyword is use for function?
+a) Fun
+b) Define
+c) Def
+d) Function
+$
+19.Which operator is overloaded by the __or__() function?
+a) ||
+b) |
+c) //
+d) /
+$
+20.What is the output of the following?
+def to_upper(k):
+    return k.upper()
+x = ['ab', 'cd']
+print(list(map(to_upper, x)))
+......
+a) [‘AB’, ‘CD’] 
+b) [‘ab’, ‘cd’] 
+c) none of the mentioned
+d) error
+$

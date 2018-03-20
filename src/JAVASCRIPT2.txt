@@ -1,0 +1,205 @@
+1. Consider the following snippet code
+
+var string1 = ”123”;
+var intvalue = 123;
+alert( string1 + intvalue );
+
+The result would be
+a. 123246
+b. 246
+c. 123123
+d. Exception
+$
+
+2. A function definition expression can be called
+a. Function prototype
+b. Function literal
+c. Function definition
+d. Function declaration
+$
+
+3. The property of a primary expression is
+a. stand-alone expressions
+b. basic expressions containing all necessary functions
+c. contains variable references alone
+d. complex expressions
+$
+
+4. Consider the following statements
+
+var text = "testing: 1, 2, 3"; // Sample text
+var pattern = /\d+/g // Matches all instances of one or more digits
+advertisements
+
+In order to check if the pattern matches with the string “text”, the statement is
+a. text==pattern
+b. text.equals(pattern)
+c. text.test(pattern)
+d. pattern.test(text)
+$
+
+5. The JavaScript’s syntax calling ( or executing ) a function or method is called
+a. Primary expression
+b. Functional expression
+c. Invocation expression
+d. Property Access Expression
+$
+
+6. What kind of an expression is “new Point(2,3)”?
+a. Primary Expression
+b. Object Creation Expression
+c. Invocation Expression
+d. Constructor Calling Expression
+$
+
+7. Which of the operator is used to test if a particular property exists or not?
+a. in
+b. exist
+c. within
+d. exists
+$
+
+8. Among the following, which one is a ternary operator?
+a. +
+b. :
+c. –
+d. ?:
+$
+
+9. “An expression that can legally appear on the left side of an assignment expression.” is a well known explanation for variables, properties of objects, and elements of arrays. They are called
+a. Properties
+b. Prototypes
+c. Lvalue
+d. Definition
+$
+
+
+10. Consider the following statements
+x = ~-y;
+w = x = y = z;
+q = a?b:c?d:e?f:g;
+The above code snippet is equivalent to
+
+a.
+x = ~(-y); w = (x = (y = z));
+q = a?b:(c?d:(e?f:g));
+ 
+b.
+x = a?b:(c?d:(e?f:g));
+q = ~(-y); w = (x = (y = z));
+ 
+c.
+x = (x = (y = z));w = ~(-y);
+q = a?b:(c?d:(e?f:g));
+ 
+d.
+x = ~(-y); w = (x = (y = z)); 
+q = (c?d:(e?f:g));
+$
+
+11. JavaScript is a _______________ language
+a. Object-Oriented
+b. High-level
+c. Assembly-language
+d. Object-Based
+$
+
+12. The output for the following code snippet would most appropriately be
+
+var a=5 , b=1
+var obj = { a : 10 }
+with(obj) 
+{
+      alert(b)
+}
+a. 10
+b. Error
+c. 1
+d. 5
+$
+
+13. A conditional expression is also called a
+a. Alternate to if-else
+b. Immediate if
+c. If-then-else statement
+d. None of the above
+$
+
+14. Which is a more efficient code snippet ?
+Code 1 :
+
+for(var num=10;num>=1;num--)
+{
+           document.writeln(num);
+}
+advertisements
+
+Code 2 :
+var num=10;
+while(num>=1)
+{
+       document.writeln(num);
+       num++;
+}
+a. Code 1
+b. Code 2
+c. Both Code 1 and Code 2
+d. Cannot Compare
+$
+
+15. A statement block is a
+a. conditional block
+b. block that contains a single statement
+c. Both a and b
+d. block that combines multiple statements into a single compound statement
+$
+
+16. When an empty statement is encountered, a JavaScript interpreter
+a. Ignores the statement
+b. Prompts to complete the statement
+c. Throws an error
+d. Throws an exception
+$
+
+17. The “var” and “function” are
+a. Keywords
+b. Declaration statements
+c. Datatypes
+d. Prototypes
+$
+
+18. Consider the following statements
+
+switch(expression)
+{
+    statements
+}
+
+In the above switch syntax, the expression is compared with the case labels using which of the following operator(s) ?
+a. ==
+b. equals
+c. equal
+d. ===
+$
+
+19. Consider the following statements
+
+var count = 0;
+while (count < 10) 
+{
+     console.log(count);
+     count++;
+}
+In the above code snippet, what happens?
+a. The values of count is logged or stored in a particular location or storage.
+b. The value of count from 0 to 9 is displayed in the console.
+c. An error is displayed
+d. An exception is thrown
+$
+
+20. The enumeration order becomes implementation dependent and non-interoperable if :
+a. If the object inherits enumerable properties
+b. The object does not have the properties present in the integer array indices
+c. The delete keyword is never used
+d. Object.defineProperty() is not used
+$

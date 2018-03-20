@@ -1,0 +1,40 @@
+~1.Answer: a
+Explanation: If you omit a value from an array literal, the omitted element is given the value.
+~2.Answer: a
+Explanation : a1 has an element with index 0 and a2 has no element with index 0.
+~3.Answer: a
+Explanation : Arrays have a pop() method (it works with push()) that reduces the length of an array by 1 but also returns the value of the deleted element.
+~4.Answer: d
+Explanation : None.
+~5.Answer: a
+Explanation : The reverse() followed by a join() will reverse the respective array and will store the reversed array in the memory.
+~6.Answer: a
+Explanation : None.
+~7.Answer: a
+Explanation : The unshift() and shift() methods behave much like push() and pop(), except that they insert and remove elements from the beginning of an array rather than from the end. unshift() adds an element or elements to the beginning of the array, shifts the existing array elements up to higher indexes to make room, and returns the new length of the array. shift() removes and returns the first element of the array, shifting all subsequent elements down one place to occupy the newly vacant space at the start of the array.
+~8.Answer: c
+Explanation : The map() method passes each element of the array on which it is invoked to the functionyou specify, and returns an array containing the values returned by that function.
+~9.Answer: b
+Explanation : None.
+~10.Answer:d
+Explanation : The typeof property is used to identify the array type.
+~11.Answer:b
+Explanation : Like most modern programming languages, JavaScript uses lexical scoping. This means that functions are executed using the variable scope that was in effect when they were defined, not the variable scope that is in effect when they are invoked.
+~12.Answer:c
+Explanation : In order to implement lexical scoping, the internal state of a JavaScript function object must include not only the code of the function but also a reference to the current scope chain.
+~13.Answer:c
+Explanation : A combination of a function object and a scope (a set of variable bindings) in which the function’s variables are resolved is called a closure.
+~14.Answer:d
+Explanation : Technically, all JavaScript functions are closures: they are objects, and they have a scope chain associated with them.
+~15.Answer:c
+Explanation : Dynamically generating graphics from real-time data uses a lot of CPU cycles.
+~16.Answer:c
+Explanation : The above code snippet returns the value in scope.
+~17.Answer:b
+Explanation : The fundamental rule of lexical scoping is that the JavaScript functions are executed using the scope chain that was in effect when they were defined.
+~18.Answer:c
+Explanation : The opposite approach to the lexical scoping is the dynamic scoping.
+~19.Answer:a
+Explanation : Dynamic scoping creates variables that can be called from outside the block of code in which they are defined. A variable declared in this fashion is sometimes called a public variable.
+~20.Answer:d
+Explanation : Lexical scoping is standardized in all algorithmic languages (ALGOL), such as Ada, Pascal, and Modula2. Additionally, it is used in modern functional languages like ML and Haskel.

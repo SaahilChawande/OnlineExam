@@ -1,0 +1,47 @@
+~1.Answer: b
+Explanation:The sizeof operator gives the size of the object or type.
+~2.Answer: d
+Explanation:None.
+~3.Answer: b
+Explanation:The limit header holds the details of the machine dependent details.
+~4.Answer: a
+Explanation:None.
+~5.Answer: c
+Explanation:The sum of three numbers are belongs to different number systems, so the result is typecasted into integer.
+Output:
+  g++ size.cpp
+  a.out
+4
+~6.Answer: c
+Explanation:The size of the double data type is 8.
+  g++ size1.cpp
+  a.out
+8
+~7.Answer: b
+Explanation:None.
+~8.Answer: d
+Explanation:Constructor creats an Object and Destructor destroys the object. They are not supposed to return anything, not even void.
+~9.Answer: d
+Explantion:There are no void objects.
+~10.Answer:b
+Explanation: void fundamental type is used in the cases of a and c.
+~11.Answer:b
+Explanation:void will not accept any values to its type.
+~12.Answer:c
+Explanation:enumerators are used in order to create our own types whereas macros are textual substitutions.
+~13.Answer:b
+Explanation:None.
+~14.Answer:d
+Explanation:Since enumerators evaluate to integers, and integers can be assigned to enumerators, enumerators can be assigned to other enumerators.
+~15.Answer:a
+Explanation:Enumerator will allocate the memory when its variables are defined.
+~16.Answer:a
+Explanation:The enum variable are converted to integer and stored by compiler. So both are equal in size.
+~17.Answer:d
+Explanation:The keyword extern is not a definition and is not allocated storage until it is initialized.
+~18.Answer:c
+Explanation:No extern are allowed for class declarations.
+~19.Answer:b
+Explanation:An identifier can be declared many times must be defined just once.
+~20.Answer:c
+Explanation:Global values are implicitly initialised to 0, but local values have to be initialised by the system.

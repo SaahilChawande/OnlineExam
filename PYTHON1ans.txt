@@ -1,0 +1,40 @@
+~1.Answer: b
+Explanation: In python, power operator is x**y i.e. 2**3=8.
+~2.Answer: b
+Explanation: When both of the operands are integer then python chops out the fraction part and gives you the round off value, to get the accurate answer use floor division. This is floor division. For ex, 5/2 = 2.5 but both of the operands are integer so answer of this expression in python is 2.To get the 2.5 answer, use floor division.
+~3.Answer: a
+Explanation: For order of precedence, just remember this PEDMAS.
+~4.Answer: d
+Explanation: Identifiers can be of any length.
+~5.Answer: a
+Explanation: Control exits the loop when i becomes 7.
+~6.Answer: b
+Explanation: The instance of the string returned by upper() is being printed.
+~7.Answer: d
+Explanation:+ operator is concatenation operator.
+~8.Answer: d
+Explanation:-1 corresponds to the last index.
+~9.Answer: c
+Explanation: The first letter of the string is converted to uppercase and the others are converted to lowercase.
+~10.Answer:b
+Explanation: The first position in the given string at which the substring can be found is returned.
+~11.Answer:c
+Explanation: The arguments passed to the function format aren’t keyword arguments.
+~12.Answer:a
+Explanation: The arguments are accessed by their names.
+~13.Answer:a,b,c,d
+Explanation:Execute in the shell to verify
+~14.Answer:c
+Explanation:max returns the maximum element in the list.
+~15.Answer:c
+Explanation:-1 corresponds to the last index in the list.
+~16.Answer:c
+Explanation:execute in the shell to verify
+~17.Answer:c
+Explanation:execute in the shell to verify.
+~18.Answer:c
+Explanation: None.
+~19.Answer:b
+Explanation: The function __or__() overloads the bitwise OR operator |.
+~20.Answer:a
+Explanation: Each element of the list is converted to uppercase.

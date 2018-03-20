@@ -1,0 +1,43 @@
+~1.Answer: d
+Explanation: std::vector<bool> is a specialized version of vector, which is used for elements of type bool and optimizes for space. It behaves like the unspecialized version of vector and the storage is not necessarily an array of bool values, but the library implementation may optimize storage so that each value is stored in a single bit.
+~2.Answer: c
+Explanation: A pointer can be implicitly converted to a bool. A nonzero pointer converts to true and zerovalued pointer converts to false.
+~3.Answer: d
+Explanation: Power of two integers have a single set bit followed by unset bits.
+~4.Answer: d
+Explanation: Right shift of signed integers is undefined, and has implementation-defined behaviour.
+~5.Answer: c
+Explanation: None.
+~6.Answer: c
+Explanation:To make a floating point literal, we should attach a suffix of ‘f’ or ‘F’ and there should not be any blank space.
+~7.Answer: a
+Explanation:None.
+~8.Answer: c
+Explanation:enumerators are used in order to create our own types whereas macros are textual substitutions.
+~9.Answer: a
+Explanation:The enum variable are converted to integer and stored by compiler. So both are equal in size.
+~10.Answer:c
+Explanation:None.
+~11.Answer:a
+Explanantion:* is to be grouped with the variables not the data types.
+~12.Answer:c
+Explanation:dp is initialized int value of i.
+~13.Answer:b
+Explanation:Because the first element always starts at 0. So it is on 8 position.
+~14.Answer:a
+Explanation:We are just printing the values of first 3 values.
+ g++ array.cpp
+a.out
+ABC
+~15.Answer:b
+Explanation:None.
+~16.Answer:c
+Explanation:The structure declaration with open and close braces and with a semicolon is also called structure specifier.
+~17.Answer:d
+Explantion:The a_struct is declared as structure name and its data element is a.
+~18.Answer:c
+Explanation:There are five sequence of statements. They are Preprocessor directives,Comments,Declarations,Function Declarations,Executable statements.
+~19.Answer:b
+Explanation:None.
+~20.Answer:c
+Explanation:None.

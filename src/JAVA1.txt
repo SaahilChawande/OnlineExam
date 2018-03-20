@@ -1,0 +1,168 @@
+1. What is the range of data type short in Java?
+a) -128 to 127
+b) -32768 to 32767
+c) -2147483648 to 2147483647
+d) None of the mentioned
+$
+2. Which of the following are legal lines of Java code?
+1. int w = (int)888.8;
+2. byte x = (byte)100L;
+3. long y = (byte)100;
+4. byte z = (byte)100L;
+a) 1 and 2
+b) 2 and 3
+c) 3 and 4
+d) All statements are correct.
+$
+3. Which of these occupy first 0 to 127 in Unicode character set used for characters in Java?
+a) ASCII
+b) ISO-LATIN-1
+c) None of the mentioned
+d) ASCII and ISO-LATIN1
+$
+4. What is the output of this program?
+
+    class mainclass {
+        public static void main(String args[]) 
+        {
+            char a = 'A';
+            a++;
+	    System.out.print((int)a);
+        } 
+    }
+a) 66
+b) 67
+c) 65
+d) 64
+$
+5.What is the prototype of the default constructor of this class?
+public class prototype { }
+a) prototype( )
+b) prototype(void)
+c) public prototype(void)
+d) public prototype( )
+$
+6.With x = 0, which of the following are legal lines of Java code for changing the value of x to 1?
+1. x++;
+2. x = x + 1;
+3. x += 1;
+4. x =+ 1;
+a) 1, 2 & 3
+b) 1 & 4
+c) 1, 2, 3 & 4
+$
+7.Decrement operator, –, decreases value of variable by what number?
+a) 1
+b) 2
+c) 3
+d) 4
+$
+8.What is the output of this program?
+
+    class bitwise_operator {
+        public static void main(String args[])
+        {
+            int var1 = 42;
+            int var2 = ~var1;
+            System.out.print(var1 + " " + var2);     	
+        } 
+    }
+a) 42 42
+b) 43 43
+c) 42 -43
+d) 42 43
+$
+9.What is the output of relational operators?
+a) Integer
+b) Boolean
+c) Characters
+d) Double
+$
+10.What is the output of this program?
+
+    class ternary_operator {
+        public static void main(String args[]) 
+        {        
+             int x = 3;
+             int y = ~ x;
+             int z;
+             z = x > y ? x : y;
+             System.out.print(z);
+        } 
+    }
+a) 0
+b) 1
+c) 3
+d)-4
+$
+11.Which of the following loops will execute the body of loop even when condition controlling the loop is initially false?
+a) do-while
+b) while
+c) for
+d) None of the mentioned
+$
+12.Which keyword is used by method to refer to the object that invoked it?
+a) import
+b) catch
+c) abstract
+d) this
+$
+13.What is the output of this program?
+
+    class main_class {
+        public static void main(String args[])
+        {
+            int x = 9;
+            if (x == 9) { 
+                int x = 8;
+                System.out.println(x);
+            }
+        } 
+    }
+a) 9
+b) 8
+c) Compilation error
+d) Runtime error
+$
+14.Which of the following statements are incorrect?
+a) Default constructor is called at the time of declaration of the object if a constructor has not been defined.
+b) Constructor can be parameterized.
+c) finalize() method is called when a object goes out of scope and is no longer needed.
+d) finalize() method must be declared protected.
+$
+15.Which of these method of String class is used to obtain character at specified index?
+a) char()
+b) Charat()
+c) charat()
+d) charAt()
+$
+16.Which of these keyword must be used to inherit a class?
+a) super
+b) this
+c) extent
+d) extends
+$
+17. Which of these is supported by method overriding in Java?
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) None of the mentioned
+$
+18.Which of these method of class StringBuffer is used to concatenate the string representation to the end of invoking string?
+a) concat()
+b) append()
+c) join()
+d) concatenate()
+$
+19.Which of the following is correct way of implementing an interface salary by class manager?
+a) class manager extends salary {}
+b) class manager implements salary {}
+c) class manager imports salary {}
+d) None of the mentioned.
+$
+20.Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+$

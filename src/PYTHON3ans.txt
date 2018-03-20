@@ -1,0 +1,60 @@
+~1.Answer: b
+Explanation:Execute help(open) to get more details.
+~2.Answer: b
+Explanation:w is used to indicate that file is to be written to. 
+~3.Answer: a
+Explanation:a is used to indicate that data is to be apended. 
+~4.Answer: a,c,d.
+Explanation:The program will throw an error.+
+~5.Answer: a
+Explanation:Execute in the shell to verify.
+~6.Answer: b
+Explanation:read function is used to read all the lines in a file. 
+~7.Answer: a
+Explanation:The WITH statement when used with open file guarantees that the file object is closed when the with block exits..
+~8.Answer: c
+Explanation:Execute in the shell to verify.
+~9.Answer: d
+Explanation:Execute in the shell to verify.
+~10.Answer:b
+Explanation:Every line is stored in a list and returned.
+~11.Answer:a
+Explanation: Python provides two built-in functions to read a line of text from standard input, which by default comes from the keyboard. These functions are:
+Raw_input.
+~12.Answer:c
+Explanation: rename is not the attribute of file rest all are files attributes.
+Attribute Description
+file.closed Returns true if file is closed, false otherwise.
+file.mode Returns access mode with which file was opened.
+file.name Returns name of the file.
+file.softspace Returns false if space explicitly required with print, true otherwise
+~13.Answer:a
+The tell() method tells you the current position within the file; in other words, the next read or write will occur at that many bytes from the beginning of the file.
+~14.Answer:a
+Explanation: This is the correct syntax which has shown below.
+rename(current_file_name, new_file_name)
+~15.Answer:a
+remove(file_name) 
+~16.Answer:a
+Explanation: Sets the file’s current position at the offset. The method seek() sets the file’s current position at the offset.
+Following is the syntax for seek() method:
+fileObject.seek(offset[, whence])
+Parameters
+offset — This is the position of the read/write pointer within the file.
+whence — This is optional and defaults to 0 which means absolute file positioning, other values are 1 which means seek relative to the current position and 2 means seek relative to the file’s end.
+~17.Answer:a
+Explanation: The method truncate() truncates the file’s size. Following is the syntax for truncate() method:
+fileObject.truncate( [ size ])
+Parameters
+size — If this optional argument is present, the file is truncated to (at most) that size. 
+~18.Answer:d
+Explanation: Standard input, standard output and standard error. Standard input is the data that goes to the program. The standard input comes from a keyboard. Standard output is where we print our data with the print keyword. Unless redirected, it is the terminal console. The standard error is a stream where programs write their error messages. It is usually the text terminal. 
+~19.Answer:d
+Explanation: Mode Meaning is as explained below:
+r Reading
+w Writing
+a Appending
+b Binary data
++ Updating.
+~20.Answer:a
+Explanation: Pickle is the standard mechanism for object serialization. Pickle uses a simple stack-based virtual machine that records the instructions used to reconstruct the object. This makes pickle vulnerable to security risks by malformed or maliciously constructed data, that may cause the deserializer to import arbitrary modules and instantiate any object.

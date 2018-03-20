@@ -1,0 +1,47 @@
+~1.Answer: a
+Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called lambda. Lambda functions are restricted to a single expression. They can be used wherever normal functions can be used. 
+~2.Answer: a
+Explanation: The lambda keyword creates an anonymous function. The x is a parameter, that is passed to the lambda function. The parameter is followed by a colon character. The code next to the colon is the expression that is executed, when the lambda function is called. The lambda function is assigned to the z variable.
+The lambda function is executed. The number 8 is passed to the anonymous function and it returns 48 as the result. Note that z is not a name for this function. It is only a variable to which the anonymous function was assigned. 
+~3.Answer: b
+Explanation: lambda definition does not include a return statement — it always contains an expression which is returned. Also note that we can put a lambda definition anywhere a function is expected, and we don’t have to assign it to a variable at all.+
+~4.Answer: b
+Explanation: None. 
+~5.Answer: b
+Explanation: None. 
+~6.Answer: b
+Explanation: None. 
+~7.Answer: f
+Explanation: None. 
+~8.Answer: b and c
+Explanation: Built-in functions and user defined ones. The built-in functions are part of the Python language. Examples are: dir(), len() or abs(). The user defined functions are functions created with the def keyword. 
+~9.Answer: d
+Explanation: None. 
+~10.Answer:a
+Explanation: Each object in Python has a unique id. The id() function returns the object’s id. 
+~11.Answer:a
+Explanation: Functions that are always available for usage, functions that are contained within external modules, which must be imported and functions defined by a programmer with the def keyword.
+Eg: math import sqrt
+The sqrt() function is imported from the math module.
+~12.Answer:a
+Explanation: Functions are reusable pieces of programs. They allow you to give a name to a block of statements, allowing you to run that block using the specified name anywhere in your program and any number of times. 
+~13.Answer:a
+~14.Answer:d
+Explanation: Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand.
+~15.Answer:a
+Explanation: None.
+~16.Answer:c
+Explanation: None. 
+~17.Answer:c
+Explanation: None.
+~18.Answer:c
+Explanation: None. 
+~19.Answer:a
+Explanation: Functions are defined using the def keyword. After this keyword comes an identifier name for the function, followed by a pair of parentheses which may enclose some names of variables, and by the final colon that ends the line. Next follows the block of statements that are part of this function.
+    def sayHello():
+        print('Hello World!') # block belonging to the function
+    # End of function #
+    sayHello() # call the function
+    sayHello() # call the function again
+~20.Answer:a, b and c
+Explanation: Functions can be defined inside a module, a class or another function. 

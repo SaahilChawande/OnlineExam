@@ -1,0 +1,52 @@
+~1.Answer: d
+Explanation: None.
+~2.Answer: b
+Explanation: whenever a subclass needs to refer to its immediate superclass, it can do so by use of the keyword super.
+~3.Answer: b
+Explanation: A class member declared protected becomes private member of subclass
+~4.Answer: c
+Explanation: None.
+~5.Answer: c
+Explanation: private members of a class cannot be inherited by a sub class.
+~6.Answer: b
+Explanation:None.
+~7.Answer: d
+Explanation:None.
+~8.Answer: b
+Explanation:While evaluating an expression containing int, bytes or shorts , the whole expression is converted to int then evaluated and result is also of type int.
+~9.Answer: c
+Explanation:If any operand is double the result of expression is double.
+~10.Answer:a
+Explanation:None.
+~11.Answer:b
+Explanation:Type casting a larger variable into a smaller variable results in modulo of larger variable by range of smaller variable. b contains 300 which is larger than byte’s range i:e -128 to 127 hence d contains 300 modulo 256 i:e 44.
+output:
+  javac conversion.java
+  java conversion
+39 44
+~12.Answer:a
+Explanation: Order of precedence is (highest to lowest) a -> b -> c -> d.
+~13.Answer:c
+Explanation: The controlling condition of ternary operator must evaluate to boolean.
+~14.Answer:d
+Explanation: None.
+~15.Answer:a
+Explanation: None.
+~16.Answer:c
+Explanation: Division operator, /, has equal precedence as of multiplication operator. In expression involving multiplication and division evaluation of expression will begin from right side when no brackets are used.
+~17.Answer:c
+Explanation: None.
+output:
+  javac ternary_operator.java
+  java ternary_operator
+3
+~18.Answer:c
+Explanation: Parentheses do not degrade the performance of the program. Adding parentheses to reduce ambiguity does not negatively affect your system.
+~19.Answer:b
+Explanation: None.
+~20.Answer:d
+Explanation: Operator | returns true if any one operand is true, thus ‘c = true | false’ is true. Operator & returns a true if both of the operand is true thus d is false. Ternary operator ?: assigns left of ‘:’ if condition is true and right hand of ‘:’ if condition is false. d is false thus e = d ? b : c , assigns c to e , e contains true.
+output:
+  javac bool_operator.java
+  java bool_operator
+false true

@@ -1,0 +1,139 @@
+Class Fundamentals & Declaring objects, Constructors & Garbage Collection, Access Control, Arrays Revisited & Keyword static
+...............
+1.What is the stored in the object obj in following lines of code?
+box obj;
+a) Memory address of allocated memory of object.
+b) NULL
+c) Any arbitrary pointer
+d) Garbage
+$
+2.Which of these keywords is used to make a class?
+a) class
+b) struct
+c) int
+d) None of the mentioned
+$
+3.Which of the following is a valid declaration of an object of class Box?
+a) Box obj = new Box();
+b) Box obj = new Box;
+c) obj = new Box();
+d) new Box obj;
+$
+4.Which of these operators is used to allocate memory for an object?
+a) malloc
+b) alloc
+c) new
+d) give
+$
+5.Which of these statement is incorrect?
+a) Every class must contain a main() method.
+b) Applets do not require a main() method at all.
+c) There can be only one main() method in a program.
+d) main() method must be made public.
+$
+6. Which of the following statements is correct?
+a) Public method is accessible to all other classes in the hierarchy
+b) Public method is accessible only to subclasses of its parent class
+c) Public method can only be called by object of its class.
+d) Public method can be accessed by calling object of the public class.
+View Answer
+$
+7.What is the return type of Constructors?
+a) int
+b) float
+c) void
+d) None of the mentioned
+$
+8.Which of the following is a method having same name as that of its class?
+a) finalize
+b) delete
+c) class
+d) constructor
+$
+9.Which operator is used by Java run time implementations to free the memory of an object when it is no longer needed?
+a) delete
+b) free
+c) new
+d) None of the mentioned
+$
+10.Which function is used to perform some action when the object is to be destroyed?
+a) finalize()
+b) delete()
+c) main()
+d) None of the mentioned
+$
+11.What is the output of this program?
+    class equality {
+        int x;
+        int y;
+        boolean isequal() {
+            return(x == y);  
+        } 
+    }    
+    class Output {
+        public static void main(String args[])
+        {
+            equality obj = new equality();
+            obj.x = 5;
+            obj.y = 5;
+            System.out.println(obj.isequal);        } 
+    }
+a) false
+b) true
+c) 0
+d) 1
+$
+12.Which of the folowing stements are incorrect?
+a) Default constructor is called at the time of declaration of the object if a constructor has not been defined.
+b) Constructor can be parameterized.
+c) finalize() method is called when a object goes out of scope and is no longer needed.
+d) finalize() method must be declared protected.
+$
+13.Which of these access specifiers must be used for main() method?
+a) private
+b) public
+c) protected
+d) None of the mentioned
+$
+14.Which of these is used to access member of class before object of that class is created?
+a) public
+b) private
+c) static
+d) protected
+$
+15.Which of these is used as default for a member of a class if no access specifier is used for it?
+a) private
+b) public
+c) public, within its own package
+d) protected
+$
+16.What is the process by which we can control what parts of a program can access the members of a class?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion
+$
+17.Which of these access specifier must be used for class so that it can be inherited by another sub class?
+a) public
+b) private
+c) protected
+d) None of the mentioned
+$
+18.Arrays in Java are implemented as?
+a) class
+b) object
+c) variable
+d) None of the mentioned
+$
+19.Which of the following statements are incorrect?
+a) Variables declared as final occupy memory.
+b) final variable must be initialized at the time of declaration.
+c) Arrays in java are implemented as an object.
+d) All arrays contain an attribute-length which contains the number of elements stored in the array.
+$
+20.Which of these methods must be made static?
+a) main()
+b) delete()
+c) run()
+d) finalize()
+$

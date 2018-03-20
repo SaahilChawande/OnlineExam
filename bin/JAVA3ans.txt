@@ -1,0 +1,44 @@
+~1.Answer: b
+Explanation: Memory is allocated to an object using new operator. box obj; just declares a reference to object, no memory is allocated to it hence it points to NULL.
+~2.Answer: a
+Explanation: None.
+~3.Answer: a
+Explanation: None.
+~4.Answer: c
+Explanation: Operator new dynamically allocates memory for an object and returns a reference to it. This reference is address in memory of the object allocated by new.
+~5.Answer: a
+Explanation: Every class does not need to have a main() method, there can be only one main() method which is made public.
+~6.Answer: a
+Explanation: None.
+~7.Answer: d
+Explanation: Constructors does not have any return type, not even void.
+~8.Answer: d
+Explanation: A constructor is a method that initializes an object immediately upon creation. It has the same name as that of class in which it resides.
+~9.Answer: d
+Explanation: Java handles deallocation of memory automatically, we do not need to explicitly delete an element. Garbage collection only occurs during execution of the program. When no references to the object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed.
+~10.Answer:a
+Explanation: None.
+~11.Answer:b
+Explanation: None.
+output:
+  javac Output.java
+  java Output
+true
+~12.Answer:c
+Explanation: finalize() method is called just prior to garbage collection. it is not called when object goes out of scope.
+~13.Answer:b
+Explanation: main() method must be specified public as it called by Java run time system, outside of the program. If no access specifier is used then by default member is public within its own package & cannot be accessed by Java run time system.
+~14.Answer:c
+Explanation: None.
+~15.Answer:a
+Explanation: When we pass an argument by call-by-value a copy of argument is made into the formal parameter of the subroutine and changes made on parameters of subroutine have no effect on original argument, they remain the same.
+~16.Answer:c
+Explanation: private members of a class can not be inherited by a sub class.
+~17.Answer:a
+Explanation: None.
+~18.Answer:b
+Explanation: None.
+~19.Answer:a
+Explanation: None.
+~20.Answer:a
+Explanation: main() method must be declared static, main() method is called by Java’s run time system before any object of any class exists.

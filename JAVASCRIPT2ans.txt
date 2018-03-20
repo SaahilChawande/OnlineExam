@@ -1,0 +1,40 @@
+~1.Answer: c
+Explanation : None.
+~2.Answer: b
+Explanation: a function definition expression is a “function literal” in the same way that an object initializer is an “object literal.” A Function definition expression typically consists of the keyword function followed by a comma-separated list of zero or more identifiers (the parameter names) in parentheses and a block of JavaScript code (the function body) in curly braces.
+~3.Answer: a
+Explanation : The simplest expressions, known as primary expressions, are those that stand alone — they do not include any simpler expressions. Primary expressions in JavaScript are constant or literal values, certain laguage keywords, and variable references.
+~4.Answer: d
+Explanation : The given pattern is applied on the text given in the parenthesis.
+~5.Answer : c
+Explanation : An invocation expression is JavaScript’s syntax for calling (or executing) a function or method. It starts with a function expression that identifies the function to be called.
+~6.Answer : b
+Explanation : An object creation expression creates a new object and invokes a function (called a constructor) to initialize the properties of that object. Object creation expressions are like invocation expressions except that they are prefixed with the keyword new.
+~7.Answer: a
+Explanation : The operator “in” tests whether a particular property exists.
+~8.Answer: d
+Explanation : JavaScript supports one ternary operator, the conditional operator ?:, which combines three expressions into a single expression.
+~9.Answer: c
+Explanation : lvalue is a historical term that means “an expression that can legally appear on the left side of an assignment expression.” In JavaScript, variables, properties of objects, and elements of arrays are lvalues.
+~10.Answer:a
+Explanation : None
+~11.Answer:d
+Explanation: JavaScript is not a full-blown OOP (Object-Oriented Programming) language, such as Java or PHP, but it is an object-based language.
+~12.Answer:c
+Explanation: The interpreter checks obj for property b, fails and takes it from outside of with.
+~13.Answer:b
+Explanation: A conditional expression can evaluate to either True or False based on the wvaluation of the condition.
+~14.Answer:a
+Explanation: A for loop is always more efficient because it encapsules two individual statements(initialization and expression) within the braces.
+~15.Answer:d
+Explanation: A statement block is a block that combines more than one statements into a single compound statement for ease.
+~16.Answer:a
+Explanation: The JavaScript interpreter takes no action when it executes an empty statement. The empty statement is occasionally useful when you want to create a loop that has an empty body.
+~17.Answer:b
+Explanation: The var and function are declaration statements—they declare or define variables and functions. These statements define identifiers (variable and function names) that can be used elsewhere in your program and assign values to those identifiers.
+~18.Answer:d
+Explanation: When a switch executes, it computes the value of expression and then looks for a case label whose expression evaluates to the same value (where sameness is determined by the === operator).
+~19.Answer:b
+Explanation: None.
+~20.Answer:a
+Explanation: None.

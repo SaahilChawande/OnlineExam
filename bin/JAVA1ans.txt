@@ -1,0 +1,60 @@
+~1.Answer: b
+Explanation:Short occupies 16 bits in memory. Its range is from -32768 to 32767.
+~2.Answer: d
+Explanation:Statements (1), (2), (3), and (4) are correct. 
+(1) is correct because when a floating-point number (a double in this case) is cast to an int, it simply loses the digits after the decimal.
+(2) and (4) are correct because a long can be cast into a byte.
+ If the long is over 127, it loses its most significant (leftmost) bits.
+(3) actually works, even though a cast is not necessary, because a long can store a byte.
+~3.Answer: d
+Explanation: First 0 to 127 character set in Unicode are same as those of ISO-LAIN-1 and ASCII.
+~4.Answer: a
+Explanation: ASCII value of ‘A’ is 65, on using ++ operator character value increments by one.
+output:
+$ javac mainclass.java
+$ java mainclass
+66
+~5.Answer: d
+Explanation:None.
+~6.Answer: d
+Explanation: Operator ++ increases value of variable by 1. x = x + 1 can also be written in shorthand form as x += 1. Also x =+ 1 will set the value of x to 1.
+~7.Answer: a
+Explanation: None.
+~8.Answer: c
+Explanation: Unary not operator, inverts all of the bits of its operand. 42 in binary is 00101010 in using not operator on var1 and assigning it to var2 we get inverted value of 42 i:e 11010101 which is -43 in decimal.
+output:
+$ javac bitwise_operator.java
+$ java bitwise_operator
+42 -43
+~9.Answer: b
+Explanation: None.
+~10.Answer:c
+Explanation: None.
+output:
+$ javac ternary_operator.java
+$ java ternary_operator
+3
+~11.Answer:a
+Explanation: None.
+~12.Answer:d
+Explanation: this keyword can be used inside any method to refer to the current object. this is always a reference to the object on which the method was invoked.
+~13.Answer:c
+Explanation: Two variables with the same name can’t be created in a class.
+output:
+$ javac main_class.java
+Exception in thread “main” java.lang.Error: Unresolved compilation problem:
+Duplicate local variable x
+~14.Answer:c
+Explanation: finalize() method is called just prior to garbage collection. It is not called when object goes out of scope.
+~15.Answer:d
+Explanation: None.
+~16.Answer:d
+Explanation: None.
+~17.Answer:c
+Explanation: None.
+~18.Answer:b
+Explanation: None.
+~19.Answer:b
+Explanation: None.
+~20.Answer:a
+Explanation: None.

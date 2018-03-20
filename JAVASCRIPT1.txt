@@ -1,0 +1,120 @@
+1. The development environment offers which standard construct for data validation
+a. Super controlled loop constructs
+b. Case sensitivity check
+c. Validation constructs
+d. All of the mentioned
+$
+2. The main purpose of a “Live Wire” in NetScape is to
+a. Create linkage between client side and server side
+b. Permit server side, JavaScript code, to connect to RDBMS
+c. Support only non relational database
+d. To interpret JavaScript code
+$
+3. The script tag must be placed in
+a. head
+b. head and body
+c. title and head
+d. All of the mentioned
+$
+4. A JavaScript program developed on a Unix Machine
+a. will throw errors and exceptions
+b. must be restricted to a Unix Machine only
+c. will work perfectly well on a Windows Machine
+d. will be displayed as a JavaScript text on the browser
+$
+5. JavaScript is ideal to
+a. make computations in HTML simpler
+b. minimize storage requirements on the web server
+c. increase the download time for the client
+d. None of the mentioned
+$
+6. Which attribute is used to specify that the script is executed when the page has finished parsing ( only for external scripts )
+a. parse
+b. async
+c. defer
+d. type
+$
+7. JavaScript Code can be called by using
+a. RMI
+b. Triggering Event
+c. Preprocessor
+d. Function/Method
+$
+8. JavaScript can be written
+a. directly into JS file and included into HTML
+b. directly on the server page
+c. directly into HTML pages
+d. All of the mentioned
+$
+9. Which of the following Attribute is used to include External JS code inside your HTML Document
+a. src
+b. ext
+c. script
+d. link
+$
+10. A proper scripting language is a
+a. High level programming language
+b. Assembly level programming language
+c. Machinen level programming language
+d. Low level programming language
+$
+11. JavaScript Code can be called by using
+a. RMI
+b. Triggering Event
+c. Preprocessor
+d. Function/Method
+$
+12. The type of a variable that is volatile is
+a. Volatile variable
+b. Mutable variable
+c. Immutable variable
+d. Dynamic variable
+$
+13. A hexadecimal literal begins with
+a. 00
+b. 0x
+c. 0X
+d. Both b and c
+$
+14. The generalised syntax for a real number representation is
+a. [digits][.digits][(E|e)[(+|-)]digits]
+b. [digits][+digits][(E|e)[(+|-)]digits]
+c. [digits][(E|e)[(+|-)]digits] 
+d. [.digits][digits][(E|e)[(+|-)]digits] 
+$
+15. When there is an indefinite or an infinity value during an arithmetic value computation, javascript
+a. Prints an exception error
+b. Prints an overflow error
+c. Displays “Infinity”
+d. Prints the value as such
+$
+16. Which of the following is not considered as an error in JavaScript?
+a. Syntax error
+b. Missing of semicolons
+c. Division by zero
+d. All of the above
+$
+17. The escape sequence ‘\f’ stands for
+a. Floating numbers
+b. Representation of functions that returns a value
+c. \f is not present in JavaScript
+d. Form feed
+$
+18. The snippet that has to be used to check if “a” is not equal to “null” is
+a. if(a!=null)
+b. if (!a)
+c. if(a!null)
+d. if(a!==null)
+$
+19. The statement a===b refers to
+a. Both a and b are equal in value, type and reference address
+b. Both a and b are equal in value
+c. Both a and b are equal in value and type
+d. There is no such statement
+$
+20. Assume that we have to convert “false” that is a non-string to string. The command that we use is (without invoking the “new” operator)
+a. false.toString()
+b. String(false)
+c. String newvariable=”false”
+d. Both a and b
+$

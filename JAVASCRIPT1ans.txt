@@ -1,0 +1,40 @@
+~1.Answer: d
+Explanation: All these facilities are available in JavaScript. Additionally, all development environments provide syntax to create and use memory variables, constants, and functions.
+~2.Answer: b
+Explanation: A Live Wire database driver also supports a number of non-relational databases.
+~3.Answer: b
+Explanation: If the script tag is placed after the body tag, then, it will not be evaluated at all. Also, it is always recommended and effective to use the script snippet in the tag.
+~4.Answer: c
+Explanation: None.
+~5.Answer: b
+Explanation: To minimise storage requirements, JavaScript is always a better say.
+~6.Answer: c
+Explanation: In order to load a page, the browser must parse the contents of all script tags, which adds additional time to the page load. By minimizing the amount of JavaScript needed to render the page, and deferring parsing of unneeded JavaScript until it needs to be executed, you can reduce the initial load time of your page.
+~7.Answer: d
+Explanation: None
+~8.Answer: a
+Explanation: None.
+~9.Answer: a
+Explanation: A ”src” attribute could be used to add any external code into the HTML document.
+~10.Answer:a
+Explanation: None.
+~11.Answer:d
+Explanation : JavaScript code is as easy to be implemented and run. It can be called by using a function or a method.
+~12.Answer:b
+Explanation : The variables whose values can be changed are called mutable variable types.
+~13.Answer:d
+Explanation : Generally, X or x denotes hexadecimal values. So, any integer literal that begins with 0X or 0x denotes a hexadecimal number.
+~14.Answer:a
+Explanation : Floating-point literals may also be represented using exponential notation: a real number followed by the letter e (or E), followed by an optional plus or minus sign, followed by an integer exponent. This notation represents the real number multiplied by 10 to the power of the exponent.
+~15.Answer:c
+Explanation : When the result of a numeric operation is larger than the largest representable number (overflow), the result is a special infinity value, which JavaScript prints as Infinity. Similarly, when a negative value becomes larger than the largest representable negative number, the result is negative infinity, printed as -Infinity. The infinite values behave as you would expect: adding, subtracting, multiplying, or dividing them by anything results in an infinite value (possibly with the sign reversed).
+~16.Answer:c
+Explanation : Division by zero is not an error in JavaScript: it simply returns infinity or negative infinity. There is one exception, however: zero divided by zero does not have a welldefined value, and the result of this operation is the special not-a-number value, printed as NaN.
+~17.Answer:d
+Explanation : \f is the JavaScript escape sequence that stands for Form feed (\u000C).
+~18.Answer:d
+Explanation : The not-equal operator !== compares o to null and evaluates to either true or false.
+~19.Answer:c
+Explanation : a==b returns a true if a and b refer to the same objec ,so they are equal, else it returns a false.
+~20.Answer:d
+Explanation : A non-string can be converted in two ways without using a new operator. false.toString() and String(false).

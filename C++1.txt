@@ -1,0 +1,134 @@
+1.Find the odd one out:
+a) std::vector<int>
+b) std::vector<short>
+c) std::vector<long>
+d) std::vector<bool>
+$
+2.What happens when a null pointer is converted into bool?
+a) An error is flagged
+b) bool value evaluates to true
+c) bool value evaluates to false
+d) the statement is ignored
+$
+3. Which of these expressions will return true if the input integer v is a power of two?
+a) (v | (v + 1)) == 0;
+b) (~v & (v – 1)) == 0;
+c) (v | (v – 1)) == 0;
+d) (v & (v – 1)) == 0;
+$
+4.What is the value of the following 8-bit integer after all statements are executed?
+int x = 1;
+x = x << 7;
+x = x >> 7;
+a) 1
+b) -1
+c) 127
+d) Implementation defined
+$
+5.Which of these expressions will isolate the rightmost set bit?
+a) x = x & (~x)
+b) x = x ^ (~x)
+c) x = x & (-x)
+d) x = x ^ (-x)
+$
+6.Which of the following is a valid floating point literal?
+a) f287.333
+b) F287.333
+c) 287.e2
+d) 287.3.e2
+$
+7.What is the range of the floating point numbers?
+a) -3.4E+38 to +3.4E+38
+b) -3.4E+38 to +3.4E+34
+c) -3.4E+38 to +3.4E+36
+d) -3.4E+38 to +3.4E+32
+$
+8.Identify the incorrect option.
+a) enumerators are constants
+b) enumerators are user defined types
+c) enumerators are same as macros
+d) enumerator values start from 0 by default
+$
+9.Which variable does equals in size with enum variable?
+a) int variable
+b) float variable
+c) string variable
+d) none of the mentioned
+$
+10.What does the following statement mean?
+    int (*fp)(char*)
+a) pointer to a pointer
+b) pointer to an array of chars
+c) pointer to function taking a char* argument and returns an int
+d) function taking a char* argument and returning a pointer to int
+$
+11.Choose the right option
+    string* x, y;
+a) x is a pointer to a string, y is a string
+b) y is a pointer to a string, x is a string
+c) both x and y are pointer to string types
+d) none of the mentioned
+$
+12.Which of the following is illegal?
+a) int *ip;
+b) string s, *sp = 0;
+c) int i; double* dp = &i;
+d) int *pi = 0;
+$
+13.What is the index number of the last element of an array with 9 elements?
+a) 9
+b) 8
+c) 0
+d) Programmer-defined
+$
+14.What is the output of this program?
+    #include <stdio.h>
+    using namespace std;
+    int main()
+    {
+        char str[5] = "ABC";
+        cout << str[3];
+        cout << str;
+        return 0;
+    }
+a) ABC
+b) ABCD
+c) AB
+d) None of the mentioned
+$
+15.The data elements in structure are also known as what?
+a) objects
+b) members
+c) datas
+d) none of the mentioned
+$
+16.The declaration of structure is also called as?
+a) sructure creator
+b) structure signifier
+c) structure specifier
+d) none of the mentioned
+$
+17.Which of the following is a properly defined structure?
+a) struct {int a;}
+b) struct a_struct {int a;}
+c) struct a_struct int a;
+d) struct a_struct {int a;};
+$
+18. How many sequence of statements are present in c++?
+a) 4
+b) 3
+c) 5
+d) 6
+$
+19.What is the user-defined header file extension in c++?
+a) cpp
+b) h
+c) hf
+d) none of the mentioned
+$
+20.Which of the following header file does not exist?
+a) <iostream>
+b) <string>
+c) <sstring>
+d) <sstream>
+$
